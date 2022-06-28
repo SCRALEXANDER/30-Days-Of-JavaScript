@@ -1,5 +1,5 @@
 const mostSpokenLanuages = (data, n) => {
-  const totalLang = FormData.map((country) => country.languages);
+  const totalLang = data.map((country) => country.languages);
   const flatLang = [].concat(...totalLang);
   const setLang = new Set(flatLang);
 
